@@ -7,9 +7,10 @@ count=0;
             count++;
         }}
     if(count==2){
-            
-        }else{
-            
+            console.log("prime number");
+        }
+         else{
+            console.log("Not prime number");
 }
 
 // check palindrome
@@ -20,7 +21,8 @@ let bag="";
       bag=bag+str[i];
     
 }if(str==bag){
-    
+  
+    console.log("palindrome");
 }else{
-    
+    console.log("Not palindrome");
 }
